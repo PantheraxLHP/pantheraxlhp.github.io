@@ -36,7 +36,7 @@ const NavBar = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
             <img src={logo} className="h-10 w-10 rounded-full border-2 border-primary-500 object-cover" alt="Logo" />
-            <span className="text-xl font-bold text-white hidden sm:block">Panthera</span>
+            <span className="text-xl font-bold text-white hidden sm:block">Felid</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -45,7 +45,7 @@ const NavBar = () => {
               <NavItem key={index} item={item} isActive={location.pathname === item.to} />
             ))}
             <a
-              href="https://github.com/Panthera"
+              href="https://github.com/felidle"
               target="_blank"
               rel="noreferrer"
               className="flex items-center space-x-1 px-4 py-2 rounded-lg bg-primary-600/30 border border-primary-500/40 hover:bg-primary-600/50 transition-all duration-300"
@@ -87,7 +87,7 @@ const NavBar = () => {
             </Link>
           ))}
           <a
-            href="https://github.com/PantheraxLHP"
+            href="https://github.com/felidle"
             target="_blank"
             rel="noreferrer"
             className="flex items-center space-x-2 px-4 py-3 rounded-lg bg-primary-700/30 hover:bg-primary-700/50 transition-colors"

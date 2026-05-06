@@ -20,7 +20,7 @@ function Projects() {
       description:
         'A featured website with booking system, user management, and payment integration, manage staff, badminton accessories rental for badminton court reservations.',
       imgPath: smash,
-      ghLink: 'https://github.com/PantheraxLHP/Smashminton',
+      ghLink: 'https://github.com/felidle/Smashminton',
       demoLink: 'https://smashminton.fun/',
       tags: ['E-commerce', 'web'],
       tech: ['Nextjs', 'Nestjs', 'PostgreSQL', 'Prisma', 'TailwindCSS'],
@@ -80,7 +80,7 @@ function Projects() {
       description:
         'A comprehensive application for managing dental clinic operations including patient records, appointments, and billing.',
       imgPath: Dental,
-      ghLink: 'https://github.com/PantheraxLHP/DentalManagement',
+      ghLink: 'https://github.com/felidle/DentalManagement',
       demoLink: '',
       tags: ['desktop', 'database'],
       tech: ['C#', '.NET', 'SQL Server', 'Windows Forms'],
@@ -124,9 +124,8 @@ function Projects() {
               <button
                 key={cat}
                 onClick={() => setCategory(cat)}
-                className={`px-4 py-2 rounded-full text-sm font-medium capitalize transition-all duration-300 ${
-                  category === cat ? 'bg-primary-600 text-white' : 'bg-dark-800 text-gray-300 hover:bg-dark-700'
-                }`}
+                className={`px-4 py-2 rounded-full text-sm font-medium capitalize transition-all duration-300 ${category === cat ? 'bg-primary-600 text-white' : 'bg-dark-800 text-gray-300 hover:bg-dark-700'
+                  }`}
               >
                 {cat}
               </button>
@@ -150,7 +149,7 @@ function Projects() {
         <div className="text-center mt-16">
           <p className="text-gray-400 mb-6">More projects can be found on my GitHub profile</p>
           <a
-            href="https://github.com/PantheraxLHP"
+            href="https://github.com/felidle"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center"

@@ -34,7 +34,7 @@ const Home = () => {
                 View My Work
               </Link>
               <a
-                href="https://github.com/PantheraxLHP"
+                href="https://github.com/felidle"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary"
@@ -45,7 +45,7 @@ const Home = () => {
 
             <div className="flex space-x-4 pt-4">
               <a
-                href="https://www.facebook.com/PantheraxLHP/"
+                href="https://www.facebook.com/felidle/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-dark-700 border border-primary-700/30 hover:bg-primary-700/20 transition-all duration-300"
